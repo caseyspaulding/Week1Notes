@@ -1,5 +1,7 @@
 package com.skillstorm.general;
 
+import java.util.Scanner;
+
 public class Day2 {
 	
 	public static void main(String[] args) {
@@ -23,6 +25,25 @@ public class Day2 {
 		// bit - the smallest unit of measurement in a computer
 		
 		// byte - 8 bit value, from -128 to 127
+		
+		//  short - 16 bit whole number
+		// range from -2^15 to (2^15)-1
+		short smallishNumber = 345;
+		
+		// long - 64 bit a whole number
+		
+		System.out.print("What is your name? ");
+		
+		// to print something we use System.out 
+		// to read something we use System.in
+		// we hand System.in to a Scanner
+	    Scanner in = new Scanner(System.in);
+	    
+	    String input = in.nextLine();
+	    
+	    System.out.println("Hello, " + input);
+	    
+	    
 		
 	}
 
