@@ -1,5 +1,7 @@
 package com.skillstorm.general;
 
+import java.util.Scanner;
+
 public class Day5 {
 	
 	public static void main(String[] args) {
@@ -22,6 +24,42 @@ public class Day5 {
 		
 		System.out.println(num > 4 && num < 1 && num == 7);
 		
+		// ! : not
+		// && : and
+		// || : or
+		
+		int value = 4;
+		boolean expression = value == 5;
+		
+		if (value + 3 == 7 || value % 2 == 0) {
+			
+			System.out.println("It was 4, or even");
+			
+		}
+		
+		if (value % 2 != 0) {
+			
+		}
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Whats the best Destiny class?: ");
+		
+		String guess = input.nextLine();
+		
+		if (guess.equalsIgnoreCase("Hunter")) {
+			
+			
+		}
+		
+		
+		
+	
+		int val = 30;
+		
+		if(val >= 20) {
+			
+		}
 		
 		
 	}
